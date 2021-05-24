@@ -56,8 +56,8 @@ def parse_args():
                         help='interval for evauating(generating) images from testDataroot')
     parser.add_argument('--output_dir', default='./output', help='folder to output images and model checkpoints')
     opt = parser.parse_args()
-#    opt.isTrain = True
-    opt.isTrain = False
+    opt.isTrain = True
+#    opt.isTrain = False
     print(opt)
 
     # set gpu ids
